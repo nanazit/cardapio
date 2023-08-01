@@ -1,0 +1,87 @@
+body{
+
+    font-family: Helvetica, sans-serif;
+}
+p {
+    padding-left: 50px;
+}
+
+h1, h2, h3 {
+    padding-left: 50px;
+    font-style: bold;
+    color:#E9436C;
+}
+
+
+
+h4, h5 {
+    padding-left: 70px;
+}
+
+.dropdown {
+    padding-left: 50px;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #C5C3E3;
+    min-width: 160px;
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /* unvisited link */
+a:link {
+    color: #4D4F9D;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #4D4F9D;
+    text-decoration: none;
+
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #4D4F9D;
+    text-decoration: underline;
+  }
+  
+  /* selected link */
+  a:active {
+     color: #4D4F9D;
+     text-decoration: underline;
+    }
+
+.menuzito
+{
+background-color: #4D4F9D;
+font-weight: bold;
+padding: 6px 6px 6px 6px;
+color: aliceblue;
+font-size: 26px;
+}
+
+.whats {
+    position: fixed;
+    bottom: 4%;
+    right: 4%;
+    z-index: 9999;
+    background-color: white;
+    border-radius: 5px;
+    border:1px solid #46c756;
+    padding: 7px;
+}
+
+.tapiocaimg {
+float: right;
+}
