@@ -85,3 +85,7 @@ font-size: 26px;
 .tapiocaimg {
 float: right;
 }
+
+hr {
+    style="width:100px; margin: auto;"
+}
